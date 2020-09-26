@@ -1,8 +1,93 @@
-.intro{
-    height: 100vh;
-    min-height: 600px;
-    background-image: url(/img/Background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.intro {
+  height: 170vh;
+  min-height: 600px;
+  background-image: url(/img/Background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--white-color);
+  padding-top: 240px;
+}
+.intro_link {
+  background-color: rgba(28, 46, 61, 0.51);
+  padding: 18px 30px;
+  border-radius: 24px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.inro_title {
+  font-size: 80px;
+  line-height: 84px;
+  width: 50%;
+  margin: 40px 0;
+}
+.intro_text {
+  margin-bottom: 59px;
+  width: 50%;
+  font-family: SFCompactText;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+.intro_btn {
+  background-color: rgba(232, 89, 78, 1);
+  border-radius: 8px;
+  font-family: SFProDisplay;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2.1818180084228516px;
+  text-align: center;
+  padding: 33px 82px;
+  max-width: 300px;
+  margin-bottom: 156px;
+}
+.intro_bottom {
+  justify-content: start;
+}
+.serch_form-field {
+  padding: 0px 50px;
+  width: 700px;
+  height: 120px;
+  background: var(--white-color);
+  box-shadow: inset 0px -2px 0px rgba(223, 223, 223, 0.5);
+  border-radius: 4px 0px 0px 0px;
+  border: none;
+}
+.serch_btn {
+  padding: 0 50px;
+  width: 70px;
+  height: 120px;
+  background-image: url(/img/search.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: none;
+  font-family: SFProDisplay;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.swiper_slider{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    position: relative;
+    top: -179.5px;
+}
+.main_slider_media{
+    height: 180px;
+}
+.main_slider_text {
+  background: rgba(115, 175, 186, 1);
+  height: 120px;
+  padding: 53px 0;
+  font-family: SFProDisplay;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 2.18182px;
+text-transform: uppercase;
 }

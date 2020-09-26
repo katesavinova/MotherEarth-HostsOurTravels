@@ -10,7 +10,7 @@
 .header_container {
   justify-content: space-between;
   align-items: center;
-  max-width: 1695px;
+  max-width: 1195px;
 }
 .social {
   display: flex;
